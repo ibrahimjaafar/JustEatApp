@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Just Eat App</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link href="style.css" rel="stylesheet">
+	
+	
+</head>
+
+
+<body>
+
+	<h1> Just Eat App by Ibrahim Jaafar </h1>
+	<!-- Take in the outcode from the user -->
+	<form name="form1" action="">
+			<input type="text" placeholder="Outcode ie 'se19'" name="outcode" value=""/>
+			<input type="button" class="submitBtn" name="submit" value="Check" onClick="add(document.form1.outcode)"/>
+			<h5 class="errorText"></h5>
+	</form>
+ 
+	<!-- Display the Restaurants and their data -->
+	<ul><li class="name">Restaurant Name</li><li class="rating">Rating out of 6</li><li class="food"> Types of food</li></ul></br>
+
+	<div id="List">
+	</div>
+	
+	<script src="JustEat.js"></script>
+</body>
+</html>

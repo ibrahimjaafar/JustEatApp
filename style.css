@@ -1,0 +1,67 @@
+
+body{
+	background-color: #1E1813;
+}
+
+input{
+	margin-left:34%;
+	padding: 5px 12px;
+	border: 0.1rem solid #494343;
+}
+.submitBtn{
+	margin-left:34%;
+	position:absolute;
+	margin-left: 1.5rem;
+	background-color: #494343;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+	border-radius: .3rem;
+	transition: all .2s ease-in-out;
+}
+.submitBtn:hover{
+	background-color: #393333;
+}
+
+
+
+ul{
+	margin-left:30%;
+	list-style:none;
+	display:flex;
+
+}
+  
+ul li{
+	
+	float:left;
+	padding:10px;
+	border:1px solid #000;
+	border-right:1px solid #000;
+}
+
+
+h1{
+	color:white;
+}
+.food,.name, .rating{
+    
+	background: #EABE00;
+    padding: 0.75rem;
+    width: auto;
+    margin-top: 1rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-align: center;
+}
+.food{
+	background: #6B674F;
+	
+}
+.name{
+	background: #CA5C00;
+		
+}
+
